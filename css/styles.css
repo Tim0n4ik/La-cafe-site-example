@@ -75,7 +75,7 @@ body {
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #722e00;
+  border: 1px solid #89b300;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -116,31 +116,31 @@ body {
 
 
 /* HOME PAGE */
-.container .jumbotron {
-  box-shadow: 0 0 50px #3F0C1F;
-  border: 2px solid #3F0C1F;
+.container .cafe_pic {
+  box-shadow: 0 0 50px #89b300;
+  border: 2px solid #89b300;
 }
 
-#menu-tile, #specials-tile, #map-tile {
+#drinks-tile, #specials-tile, #map-tile {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  border: 2px solid #3F0C1F;
+  border: 2px solid #89b300;
   overflow: hidden;
 }
-#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+#drinks-tile:hover, #specials-tile:hover, #map-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
-#menu-tile {
-  background: url('../images/menu-tile.jpg') no-repeat;
+#drinks-tile {
+  background: url('../images/drinks.jpg') no-repeat;
   background-position: center;
 }
 #specials-tile {
-  background: url('../images/specials-tile.jpg') no-repeat;
+  background: url('../images/specials.jpg') no-repeat;
   background-position: center;
 }
-#menu-tile span, #specials-tile span, #map-tile span {
+#drinks-tile span, #specials-tile span, #map-tile span {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -157,8 +157,8 @@ body {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  .container .jumbotron {
-    background: url('../images/jumbotron_1200.jpg') no-repeat;
+  .container .cafe_pic {
+    background: url('../images/main.jpg') no-repeat;
     height: 675px;
   }
 }
@@ -175,8 +175,8 @@ body {
   /* End Header */
 
   /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron_992.jpg') no-repeat;
+  .container .cafe_pic {
+    background: url('../images/main.jpg') no-repeat;
     height: 558px;
   }
   /* End Home Page */
@@ -185,8 +185,8 @@ body {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron_768.jpg') no-repeat;
+  .container .cafe_pic {
+    background: url('../images/main.jpg') no-repeat;
     height: 432px;
   }
   /* End Home Page */
@@ -250,11 +250,11 @@ body {
   /* End Footer */
 
   /* Home Page */
-  .container .jumbotron {
+  .container .cafe_pic {
     margin-top: 30px;
     padding: 0;
   }
-  #menu-tile, #specials-tile {
+  #drinks-tile, #specials-tile {
     width: 360px;
     margin: 0 auto 15px;
   }
@@ -271,7 +271,7 @@ body {
   /* End Header */
 
   /* Home page */
-  #menu-tile, #specials-tile {
+  #drinks-tile, #specials-tile {
     width: 280px;
     margin: 0 auto 15px;
   }
