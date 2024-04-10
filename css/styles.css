@@ -65,6 +65,7 @@ body {
   margin-top: 5px;
 }
 #phone a { /* Phone number */
+  color: #89b300;
   text-align: right;
   padding-bottom: 0;
 }
